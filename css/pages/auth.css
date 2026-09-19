@@ -1,0 +1,4 @@
+.auth-page { max-width: 420px; margin: 48px auto; padding: 24px; }
+.auth-page form { display: flex; flex-direction: column; gap: 16px; }
+.auth-page label { display: flex; flex-direction: column; gap: 6px; font-weight: 500; }
+.auth-page input { padding: 10px 12px; border: 1px solid var(--border); border-radius: 8px; font-size: 1rem; }

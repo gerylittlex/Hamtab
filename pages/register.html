@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ثبت‌نام | هم‌تاب</title>
+  <link rel="stylesheet" href="../css/variables.css" />
+  <link rel="stylesheet" href="../css/global.css" />
+  <link rel="stylesheet" href="../css/pages/auth.css" />
+</head>
+<body>
+  <main class="auth-page container">
+    <h1>ثبت‌نام در هم‌تاب</h1>
+    <form id="register-form">
+      <label>نام <input type="text" name="name" required minlength="2" /></label>
+      <label>ایمیل <input type="email" name="email" required /></label>
+      <label>رمز عبور <input type="password" name="password" required minlength="8" /></label>
+      <label>تلفن (اختیاری) <input type="tel" name="phone" /></label>
+      <button type="submit" class="btn">ثبت‌نام</button>
+    </form>
+    <p>قبلاً ثبت‌نام کرده‌اید؟ <a href="login.html">ورود</a></p>
+  </main>
+  <script src="../js/api-client.js"></script>
+  <script src="../js/components.js"></script>
+  <script src="../js/pages/register.js"></script>
+</body>
+</html>

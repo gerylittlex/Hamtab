@@ -1,0 +1,4 @@
+#calculator-form { display: grid; gap: 16px; max-width: 480px; }
+#calculator-form label { display: flex; flex-direction: column; gap: 6px; }
+#calculator-form input { padding: 10px; border: 1px solid var(--border); border-radius: 8px; }
+#calc-result { margin-top: 24px; padding: 16px; background: #fff; border-radius: var(--radius); box-shadow: var(--shadow); }
