@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>داشبورد | هم‌تاب</title>
+  <link rel="stylesheet" href="../css/variables.css" />
+  <link rel="stylesheet" href="../css/global.css" />
+  <link rel="stylesheet" href="../css/pages/dashboard.css" />
+</head>
+<body>
+  <header class="container" style="padding:16px 0;display:flex;justify-content:space-between;align-items:center;">
+    <a href="../index.html" class="brand">☀️ هم‌تاب</a>
+    <nav>
+      <a href="projects.html">پکیج‌ها</a>
+      <a href="controller.html">کنترلر</a>
+      <a href="#" onclick="HamTabNav.logout();return false;">خروج</a>
+    </nav>
+  </header>
+  <main class="container">
+    <h1>سلام، <span id="user-name">کاربر</span></h1>
+    <section>
+      <h2>سفارش‌ها</h2>
+      <div id="orders-list"></div>
+    </section>
+    <section>
+      <h2>سیستم‌های من</h2>
+      <div id="systems-list"></div>
+    </section>
+  </main>
+  <script src="../js/api-client.js"></script>
+  <script src="../js/components.js"></script>
+  <script src="../js/navigation.js"></script>
+  <script src="../js/pages/dashboard.js"></script>
+</body>
+</html>

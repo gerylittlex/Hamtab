@@ -1,0 +1,2 @@
+.packages-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 16px; }
+.package-card { background: #fff; border-radius: var(--radius); padding: 20px; box-shadow: var(--shadow); }
