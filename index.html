@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>هم‌تاب | پلتفرم انرژی خورشیدی</title>
+  <link rel="stylesheet" href="css/variables.css" />
+  <link rel="stylesheet" href="css/global.css" />
+  <link rel="stylesheet" href="css/pages/landing.css" />
+  <link rel="stylesheet" href="css/animations.css" />
+</head>
+<body>
+  <header class="container" style="padding:16px 0;display:flex;justify-content:space-between;align-items:center;">
+    <div class="brand">☀️ هم‌تاب</div>
+    <nav>
+      <a href="pages/calculator.html">محاسبه‌گر</a>
+      <a href="pages/projects.html">پکیج‌ها</a>
+      <a href="pages/neighborhood.html">محله خورشیدی</a>
+      <a href="pages/login.html" data-auth="guest">ورود</a>
+      <a href="pages/dashboard.html" data-auth="user">داشبورد</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container fade-in">
+      <h1>انرژی خورشیدی برای خانه و محله</h1>
+      <p>سیستم خورشیدی‌تان را محاسبه کنید، پکیج سفارش دهید و مصرف را هوشمندانه مدیریت کنید.</p>
+      <div style="display:flex;gap:12px;margin-top:24px;">
+        <a class="btn" href="pages/calculator.html">شروع محاسبه</a>
+        <a class="btn btn-outline" href="pages/projects.html">مشاهده پکیج‌ها</a>
+      </div>
+    </section>
+
+    <section class="container" style="margin:48px auto;display:grid;grid-template-columns:repeat(3,1fr);gap:24px;text-align:center;">
+      <div class="fade-in"><strong data-count="1200">0</strong><p>کاربر فعال</p></div>
+      <div class="fade-in"><strong data-count="350">0</strong><p>سیستم نصب‌شده</p></div>
+      <div class="fade-in"><strong data-count="45">0</strong><p>محله خورشیدی</p></div>
+    </section>
+  </main>
+
+  <footer class="container" style="padding:32px 0;border-top:1px solid var(--border);margin-top:64px;">
+    <p>© ۱۴۰۴ هم‌تاب. تمامی حقوق محفوظ است.</p>
+  </footer>
+
+  <script src="js/api-client.js"></script>
+  <script src="js/components.js"></script>
+  <script src="js/navigation.js"></script>
+  <script src="js/animations.js"></script>
+  <script src="js/pages/landing.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,4 @@
+@media (max-width: 768px) {
+  .packages-grid { grid-template-columns: 1fr; }
+  .hero { padding: 40px 0; }
+}

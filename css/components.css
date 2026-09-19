@@ -1,0 +1,3 @@
+/* Components */
+.card { background: #fff; border-radius: var(--radius); padding: 16px; box-shadow: var(--shadow); }
+.btn { transition: filter 0.15s ease; }
